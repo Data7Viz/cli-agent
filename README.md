@@ -45,6 +45,7 @@
 
 <details>
 <summary><b>Смотреть -> поисковик браузер http://127.0.0.1:11434</b></summary>
+<img width="1912" height="308" alt="Снимок экрана от 2026-10-21 14-35-04" src="https://github.com/user-attachments/assets/13ac7d1b-4056-4e64-a10b-7247bb65625c" />
 
 </details> 
 
