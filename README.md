@@ -30,7 +30,7 @@
 Адрес 127.0.0.1 Порт 11434 Имя ollama
 
 <details>
-<summary><b>Смотреть nmap -p- 127.0.0.1</b></summary>
+<summary><b>Смотреть -> nmap -p- 127.0.0.1</b></summary>
 <img width="915" height="326" alt="Снимок экрана от 2026-10-21 14-09-24" src="https://github.com/user-attachments/assets/5c7e623e-e3aa-4587-9f64-5ea805bf19fd" />
 
 </details>
@@ -38,10 +38,14 @@
 Порт 11434 открыт сервис возможно nmap ни чего не знает об этом сервисе. Либо изменить опции.
 
 <details>
-<summary><b>Смотреть curl http://127.0.0.1:11434</b></summary>
+<summary><b>Смотреть -> curl http://127.0.0.1:11434</b></summary>
 <img width="1107" height="162" alt="Снимок экрана от 2026-10-21 14-21-32" src="https://github.com/user-attachments/assets/c9588fdd-d991-4351-8fa2-1d56733c3fe1" />
 
 </details>
 
-ollama Ответила
+<details>
+<summary><b>Смотреть -> поисковик браузер http://127.0.0.1:11434</b></summary>
 
+</details> 
+
+ollama ответила
