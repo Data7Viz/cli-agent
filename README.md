@@ -23,6 +23,7 @@
 
 <details>
 <summary><b>Смотреть -> ss -tlpn</b></summary>
+<img width="1843" height="228" alt="Снимок экрана от 2026-10-21 13-51-56" src="https://github.com/user-attachments/assets/6f7692a4-6cd1-4855-840c-552847255aa8" />
 
 </details>
 
@@ -30,6 +31,7 @@
 
 <details>
 <summary><b>Смотреть nmap -p- 127.0.0.1</b></summary>
+<img width="915" height="326" alt="Снимок экрана от 2026-10-21 14-09-24" src="https://github.com/user-attachments/assets/5c7e623e-e3aa-4587-9f64-5ea805bf19fd" />
 
 </details>
 
@@ -37,6 +39,7 @@
 
 <details>
 <summary><b>Смотреть curl http://127.0.0.1:11434</b></summary>
+<img width="1107" height="162" alt="Снимок экрана от 2026-10-21 14-21-32" src="https://github.com/user-attachments/assets/c9588fdd-d991-4351-8fa2-1d56733c3fe1" />
 
 </details>
 
