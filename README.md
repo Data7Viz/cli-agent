@@ -56,6 +56,7 @@ OLLAMA_HOST=127.0.0.2:11434 ollama serve
 
 <details>
 <summary><b>Смотреть -> второй сервер</b></summary>
+<img width="1905" height="903" alt="Снимок экрана от 2026-10-21 15-28-50" src="https://github.com/user-attachments/assets/7d2dcfc3-6965-404d-9381-1477c827e395" />
 
 </details>
 
