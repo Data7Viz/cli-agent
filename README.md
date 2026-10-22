@@ -151,6 +151,7 @@ http://127.0.0.1:11434конечная точка>/api/tags< эндпоинт
 
 <details>
 <summary><b>Смотреть управление curl</b></summary>
+<img width="1911" height="1140" alt="Снимок экрана от 2026-10-22 20-09-29" src="https://github.com/user-attachments/assets/47f56515-0502-49c9-bfd8-955bde714064" />
 
 </details> 
 
