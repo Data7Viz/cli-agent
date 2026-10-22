@@ -89,5 +89,6 @@ OLLAMA_HOST=127.0.0.2:11434 ollama run qwen2.5-coder:7b
 
 <details>
 <summary><b>Фото дневника</b></summary>
+<img width="2448" height="3264" alt="1125" src="https://github.com/user-attachments/assets/9eb123b7-67f6-4b15-80b2-d0dec65b0c64" />
 
 </details> 
