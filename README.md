@@ -86,3 +86,8 @@ OLLAMA_HOST=127.0.0.2:11434 ollama run qwen2.5-coder:7b
 - conf.py
 - tool.py
 - agent.py
+
+<details>
+<summary><b>Фото дневника</b></summary>
+
+</details> 
