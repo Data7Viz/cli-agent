@@ -4,6 +4,10 @@
 	"messages": [
 		{
 			"role": "system",
+			"content": "Ты системный администратор Linux"
+		},
+		{
+			"role": "user",
 			"content": "Кто ты?"
 		}
 	],
