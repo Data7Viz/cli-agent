@@ -4,7 +4,7 @@
 	"messages": [
 		{
 			"role": "system",
-			"content": "Ты системный администратор Linux"
+			"content": "Ты программист на языке программирования Си"
 		},
 		{
 			"role": "user",
@@ -14,3 +14,4 @@
 	"seed": 0,
 	"stream": false
 }
+
