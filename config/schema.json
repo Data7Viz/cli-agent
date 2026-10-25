@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "LLM_Agent_Full_Config",
+  "type": "object",
+  "properties": {
+    "model": {
+      "type": "string",
+      "description": "qwen2.5-coder:7b"
+    },
+    "messages": {
+      "type": "array",
+      "description": "Список всех сообщений в диалоге (контекст)",
+      "items": {
+        "type": "object",
+        "required": ["role", "content"],
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": ["system", "user", "assistant", "tool"],
+            "description": "Кто говорит: system (инструкция агенту), user (ты), assistant (ответ ИИ), tool (ответ функции)"
+          },
+          "content": {
+            "type": "string",
+            "description": "Текст самого сообщения"
+          },
+          "name": {
+            "type": "string",
+            "description": "Имя автора сообщения (полезно для многоагентных систем)"
+          }
+        }
+      }
+    },
+    "temperature": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2,
+      "description": "Творчество ИИ: 0.0 — точный и строгий (для кода), 1.0+ — креативный"
+    },
+    "max_tokens": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Максимальное количество токенов (слов/знаков) в ответе"
+    },
+    "stream": {
+      "type": "boolean",
+      "description": "Включить потоковую выдачу текста (true/false) — как на сайте ChatGPT"
+    },
+    "stop": {
+      "type": ["string", "array"],
+      "description": "Стоп-слова, на которых ИИ сразу прекратит генерацию"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "Число для фиксации случайности. Если seed одинаковый, ИИ будет отвечать идентично"
+    },
+    "tools": {
+      "type": "array",
+      "description": "Список инструментов (функций), которые твой агент умеет вызывать (Function Calling)"
+    }
+  },
+  "required": ["model", "messages"]
+}
+
