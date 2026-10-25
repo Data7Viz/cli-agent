@@ -27,6 +27,7 @@
 <details>
 <summary><b>Смотреть Промт</b></summary>
 
+```
 {
 	"$schema": "./schema.json",
 	"model": "qwen2.5-coder:7b",
@@ -44,6 +45,7 @@
 	"stream": false
 }
 
+```
 </details> 
 
 <details>
