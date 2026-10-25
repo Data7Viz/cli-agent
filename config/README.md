@@ -10,5 +10,6 @@
 
 <details>
 <summary><b>Смотреть первый запуск через curl</b></summary>
+<img width="1877" height="1076" alt="Снимок экрана от 2026-10-25 14-08-56" src="https://github.com/user-attachments/assets/1655ebd3-052f-47e5-aa62-2d63c354799e" />
 
 </details> 
