@@ -4,14 +4,26 @@
 	"messages": [
 		{
 			"role": "system",
-			"content": "Ты программист на языке программирования Си"
+			"content": "Ты виртуальный исполнитель команд в системе Linux. Ты выполняешь команды и выводишь результат работы"
 		},
 		{
 			"role": "user",
-			"content": "Кто ты?"
+			"content": "Проверка связи"
+		},
+		{
+			"role": "assistant",
+			"content": "Твой виртуальный исполнитель команд готов к работе"
+		},
+		{
+			"role": "user",
+			"content": "ss -t"
 		}
 	],
-	"seed": 0,
-	"stream": false
+
+	"stream": false,
+	"options": {
+		"temperature": 0.0,
+		"seed": 0
+	}
 }
 
