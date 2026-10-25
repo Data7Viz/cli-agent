@@ -100,6 +100,7 @@
 
 <details>
 <summary><b>Смотреть Ответ нейрона</b></summary>
+<img width="1918" height="1110" alt="Снимок экрана от 2026-10-25 21-20-36" src="https://github.com/user-attachments/assets/f8c92ae7-1900-4b48-aa65-23b9b68a873a" />
 
 </details>
 
