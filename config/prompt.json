@@ -1,0 +1,10 @@
+{
+	"$schema": "./schema.json",
+	"model": "qwen2.5-coder:7b",
+	"messages": [
+		{
+			"role": "system",
+			"content": "Кто ты?"
+		}
+	]
+}
