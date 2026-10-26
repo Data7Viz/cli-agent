@@ -1,22 +1,10 @@
 {
 	"$schema": "./schema.json",
-	"model": "qwen2.5-coder:7b",
+	"model": "qwen2.5-coder:1.5b",
 	"messages": [
 		{
-			"role": "system",
-			"content": "Ты виртуальный исполнитель команд в системе Linux. Ты выполняешь команды и выводишь результат работы"
-		},
-		{
 			"role": "user",
-			"content": "Проверка связи"
-		},
-		{
-			"role": "assistant",
-			"content": "Твой виртуальный исполнитель команд готов к работе"
-		},
-		{
-			"role": "user",
-			"content": "ss -t"
+			"content": "Сделай анализ (1782249168.291518)  can0  0CF00400   [8]  01 7D 7D 00 00 00 FF 88"
 		}
 	],
 

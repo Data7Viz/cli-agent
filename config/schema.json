@@ -5,7 +5,7 @@
   "properties": {
     "model": {
       "type": "string",
-      "description": "qwen2.5-coder:7b"
+      "description": "qwen2.5-coder:1.5b"
     },
     "messages": {
       "type": "array",
