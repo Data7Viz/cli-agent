@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org",
+  "title": "AI Prompt Configuration",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string", "description": "Название или ID промта" },
+    "model": { "type": "string", "description": "Название модели (например, gpt-4o, claude-3-5-sonnet)" },
+    "system_prompt": { "type": "string", "description": "Системный промт (инструкции для ИИ)" },
+    "user_prompt": { "type": "string", "description": "Шаблон запроса пользователя" },
+    "temperature": { "type": "number", "minimum": 0, "maximum": 2, "description": "Креативность (0.0 - строго, 1.0+ - креативно)" },
+    "max_tokens": { "type": "integer", "minimum": 1, "description": "Максимальное количество токенов на выходе" },
+    "top_p": { "type": "number", "minimum": 0, "maximum": 1, "description": "Top-p sampling" },
+    "presence_penalty": { "type": "number", "minimum": -2, "maximum": 2, "description": "Штраф за повторение тем" },
+    "frequency_penalty": { "type": "number", "minimum": -2, "maximum": 2, "description": "Штраф за повторение слов" },
+    "stop": { 
+      "type": "array", 
+      "items": { "type": "string" }, 
+      "description": "Стоп-слова для остановки генерации" 
+    },
+    "messages": {
+      "type": "array",
+      "description": "Список сообщений для диалога (Few-shot примеры)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": { "type": "string", "enum": ["system", "user", "assistant"], "description": "Роль автора сообщения" },
+          "content": { "type": "string", "description": "Текст сообщения" }
+        },
+        "required": ["role", "content"]
+      }
+    }
+  }
+}
+
