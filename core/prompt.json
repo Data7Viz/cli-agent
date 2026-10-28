@@ -1,14 +1,14 @@
 {
 	"$schema": "./schema.json",
-	"model": "qwen2.5-coder:7b",
+	"model": "qwen2.5-coder:3b",
 	"messages": [
 		{
 			"role": "system",
-			"content": "Ты отвечаешь всегда на русском. Ты автоэлектрик диагност"
+			"content": "Ты отвечаешь мтрого в формате JSON."
 		},
 		{
 			"role": "user",
-			"content": "Расшифруй spn 3456"
+			"content": "Кто ты?"
 		}
 	]
 }
