@@ -58,3 +58,35 @@ clean_json = json.loads(raw_string_output)
 ```
 
 </details> 
+
+### Termux 
+
+- **Сервер**
+В терминале pts/0 подымаем сервер локальной нейросети 
+
+```bash 
+
+proot-distro login ubuntu && ollama serve &
+
+```
+
+<details>
+<summary><b>pts/0 </b></summary>
+
+</details>
+
+- **Клиент**
+В терминале pts/1 отправляем запрос на сервер
+
+```python
+
+python client.py
+
+```
+
+<details>
+<summary><b>pts/1 </b></summary>
+
+</details>
+
+Что ответила это вопрос 10 главное в формате json и мы видим что ловить чтоб строить цепочку ИИ-агента дальше. 
