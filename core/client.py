@@ -12,13 +12,13 @@ with open("prompt.json", "r") as f:
 
 data.pop("$schema", None)
 
-# --- ИЗМЕНЕНИЯ ЗДЕСЬ ---
+data["format"] = "json"
 
 # 3. Отправляем запрос (СТРИМИНГ ВЫКЛЮЧЕН: stream=False)
 response = client_local_1.chat(**data, stream=False)
 
 # 4. Ловим сырой ответ ассистента (строку) из объекта Ollama
-raw_content = response.message.content
+raw_content = response.message.content or ""
 
 try:
     # 5. Превращаем её в чистый JSON объект
