@@ -4,7 +4,7 @@
 	"messages": [
 		{
 			"role": "system",
-			"content": "Ты отвечаешь мтрого в формате JSON."
+			"content": "Ты отвечаешь строго в формате JSON."
 		},
 		{
 			"role": "user",
