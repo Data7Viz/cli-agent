@@ -4,11 +4,26 @@
 	"messages": [
 		{
 			"role": "system",
-			"content": "Ты отвечаешь строго в формате JSON."
+			"content": "Ты виртуальный помощник твоё имя SS"
 		},
 		{
 			"role": "user",
 			"content": "Кто ты?"
+		},
+		{
+			"role": "assistant",
+			"content": "SS"
+		},
+		{
+			"role": "user",
+			"content": "SS Кто ты ?"
 		}
-	]
-}
+	],
+	
+	"options": {
+		"temperature": 0.0,
+		"num_predict": 40
+
+	}
+
+} 
