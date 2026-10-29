@@ -99,11 +99,13 @@ python client.py
 
 <details>
 <summary><b>ss</b></summary>
+<img width="1905" height="741" alt="Снимок экрана от 2026-10-28 18-38-39" src="https://github.com/user-attachments/assets/ace9d52f-6fb9-4d33-a5fe-ab6b8fbbfb5f" />
 
 </details>
 
 <details>
 <summary><b>python client.py</b></summary>
+<img width="1860" height="1107" alt="Снимок экрана от 2026-10-28 18-36-05" src="https://github.com/user-attachments/assets/b6ff201f-f9a5-4286-8fd6-2363992b67a1" />
 
 </details>
 
