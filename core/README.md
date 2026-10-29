@@ -71,7 +71,7 @@ proot-distro login ubuntu && ollama serve &
 ```
 
 <details>
-<summary><b>pts/0 </b></summary>
+<summary><b>pts/0</b></summary>
 <img width="1200" height="1920" alt="1205" src="https://github.com/user-attachments/assets/56ce1d76-4026-45c1-bc30-dd87a6b251c0" />
 
 </details>
@@ -86,11 +86,27 @@ python client.py
 ```
 
 <details>
-<summary><b>pts/1 </b></summary>
+<summary><b>pts/1</b></summary>
 <img width="1200" height="1920" alt="1206" src="https://github.com/user-attachments/assets/8a238484-9670-4fa2-b518-1cbfe3539aa9" />
 
 </details>
 
-Что ответила это вопрос 10 главное в формате json и мы видим что ловить чтоб строить цепочку ИИ-агента дальше. 
+Что ответила!? Это вопрос 10. Главное в формате json и мы видим что ловить чтоб строить цепочку для одгого ИИ-агента дальше. 
 
 ### Linux
+
+На Linux другая система по сравнению с Termux. Ollama сервер всегда слушает 11434 порт.
+
+<details>
+<summary><b>ss</b></summary>
+
+</details>
+
+<details>
+<summary><b>python client.py</b></summary>
+
+</details>
+
+Система просыпается. Ответ интересный. Формирование формата JSON критически важно, особенно если архитектура автоматизации состоит из нескольских Агентов. Важна точка старта, запуск. 
+
+
