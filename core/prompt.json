@@ -1,29 +1,26 @@
 {
 	"$schema": "./schema.json",
 	"model": "qwen2.5-coder:3b",
+	"options": {
+		"temperature": 0.0
+	}, 
 	"messages": [
 		{
 			"role": "system",
-			"content": "Ты виртуальный помощник твоё имя SS"
+			"content": "сложение"
 		},
 		{
 			"role": "user",
-			"content": "Кто ты?"
+			"content": "10 + 10"
 		},
 		{
 			"role": "assistant",
-			"content": "SS"
+			"content": "20"
 		},
 		{
 			"role": "user",
-			"content": "SS Кто ты ?"
+			"content": "200 200"
 		}
-	],
-	
-	"options": {
-		"temperature": 0.0,
-		"num_predict": 40
-
-	}
+	]
 
 } 
